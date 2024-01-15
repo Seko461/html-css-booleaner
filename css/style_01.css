@@ -87,3 +87,81 @@ header {
 .right-img {
     height: 350px;
 }
+
+.photo_description {
+    height: 50px;
+    margin-left: 5px;
+    font-size: 0.7rem;
+}
+
+/*------- fine top main --------*/
+
+.bottom_main {
+    margin-left: 5px;
+}
+
+.important {
+    background-color: #FBFC06;
+}
+
+p {
+    padding-bottom: 20px;
+
+}
+
+.list {
+    height: 100px;
+}
+
+
+ul {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+}
+
+.first_column,
+.second_column {
+    height: 200px;
+    width: 25%;
+
+}
+
+.third_column {
+    height: 200px;
+    width: 50%;
+
+}
+
+.grid_header {
+    background-color: #4DA0FE;
+    color: white;
+}
+
+.first_row,
+.third_row {
+    height: 60px;
+    line-height: 60px;
+    background-color: #B1E5F2;
+
+}
+
+.second_row {
+    height: 60px;
+    line-height: 60px;
+
+}
+
+.first_row_third_column,
+.third_row_third_column {
+    height: 60px;
+    background-color: #B1E5F2;
+}
+
+.second_row_third_column {
+    height: 60px;
+}
