@@ -2,7 +2,7 @@
       Palette
 
 colore 1 = #4DA0FE
-colore 2 = #68B8D8
+colore 2 = #61bfe4
 colore 3 = #FBFC06
 colore 4 = #21A8E7
 colore 5 = #B1E5F2
@@ -13,7 +13,7 @@ colore 6 = #7C7C7C
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poly', serif;
+
 }
 
 /*-------- Header -----------*/
@@ -23,7 +23,7 @@ header {
     background-image: url(/img/pattern.png);
     background-size: 30%;
     margin-left: -110px;
-    opacity: 85%;
+
 
 }
 
@@ -33,8 +33,7 @@ header {
 
 .top_logo {
     color: white;
-    margin-left: -155px;
-    text-shadow: 0 12;
+    margin-left: -140px;
     font-size: 1rem;
     text-shadow: 5px 5px 5px 5px black;
 
@@ -47,6 +46,31 @@ header {
     display: flex;
     margin-bottom: 30px;
     margin-left: 115px;
+}
 
+/*---------------- Main -----------------*/
 
+.title {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.credits {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    color: #7C7C7C;
+}
+
+.special {
+    margin-left: 5px;
+    color: #61bfe4;
+
+}
+
+.date {
+    margin-left: 5px;
+    color: #7C7C7C;
+    font-size: 0.8rem;
 }
