@@ -17,6 +17,10 @@ colore 6 = #7C7C7C
 }
 
 /*-------- Header -----------*/
+body {
+    width: 90%;
+}
+
 header {
     height: 100px;
     background-color: #4DA0FE;
@@ -73,4 +77,13 @@ header {
     margin-left: 5px;
     color: #7C7C7C;
     font-size: 0.8rem;
+}
+
+.left-img {
+    margin-left: 5px;
+    height: 350px;
+}
+
+.right-img {
+    height: 350px;
 }
