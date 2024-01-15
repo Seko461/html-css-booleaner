@@ -8,3 +8,45 @@ colore 4 = #21A8E7
 colore 5 = #B1E5F2
 colore 6 = #7C7C7C 
 ----------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poly', serif;
+}
+
+/*-------- Header -----------*/
+header {
+    height: 100px;
+    background-color: #4DA0FE;
+    background-image: url(/img/pattern.png);
+    background-size: 30%;
+    margin-left: -110px;
+    opacity: 85%;
+
+}
+
+.top_space {
+    height: 40px;
+}
+
+.top_logo {
+    color: white;
+    margin-left: -155px;
+    text-shadow: 0 12;
+    font-size: 1rem;
+    text-shadow: 5px 5px 5px 5px black;
+
+
+}
+
+.bottom_logo {
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 115px;
+
+
+}
