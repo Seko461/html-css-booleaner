@@ -1,0 +1,130 @@
+/* -----------------
+      Palette
+
+colore 1 = #4DA0FE
+colore 2 = #61bfe4
+colore 3 = #FBFC06
+colore 4 = #21A8E7
+colore 5 = #B1E5F2
+colore 6 = #7C7C7C 
+----------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.banner {
+
+    border: 1px solid black;
+    background-image: url(/assets/img/pattern.png);
+    background-size: 30%;
+    background-color: #4DA0FE;
+}
+
+.logo {
+    width: 250px;
+    padding-left: 1rem;
+    padding-top: 1.3rem;
+    padding-bottom: .5rem;
+}
+
+/*---------- /banner -----------*/
+
+.container {
+    margin-left: 5px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3,
+h5 {
+    color: #7C7C7C;
+}
+
+.author {
+    color: #61bfe4;
+}
+
+/*------------ /main header ------------*/
+
+.images {
+    margin-top: 20px;
+}
+
+/*---------- article -----------*/
+p {
+    margin-top: 30px;
+}
+
+.accent {
+    background-color: #FBFC06;
+}
+
+ul {
+    margin-left: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*-------- table -----------*/
+table {
+    border-collapse: collapse;
+}
+
+.first_column {
+    width: 25vw;
+
+}
+
+.second_column {
+    width: 25vw;
+}
+
+.third_column {
+    width: 50vw;
+}
+
+th {
+    text-align: left;
+    background-color: #4DA0FE;
+    color: white;
+}
+
+.unpair {
+    background-color: #61bfe4
+}
+
+/*----------- /main ------------*/
+footer {
+    margin-left: 5px;
+}
+
+.footer_header {
+    margin-top: 30px;
+    color: #7C7C7C;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.related_article {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#monitor {
+    background-image: url(/assets/img/monitor.jpg);
+}
+
+#graph {
+    background-image: url(/assets/img/graph.jpg);
+}
